@@ -1,12 +1,19 @@
 h1, h2, p {
     font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: #333333;
+    font-size: 1.5rem;
+    color: #555;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px aliceblue;
   }
   
   a {
     color: #007acc;
+    text-decoration:none;
   }
+a:hover{
+    transform:scale(2.0);
+    color:red;
+    }
   
   .section-margin {
     margin: 20px;
